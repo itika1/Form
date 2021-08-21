@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Software Engineer Hiring 2022 Form</h1>
+        <form action="/action_page.php">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Type your name" name="name" required="">
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter your email" name="email" required="">
+            </div>
+            <div class="form-control">
+                <label for="no">Phone No.</label>
+                <input type="number" placeholder="Enter your phone no" name="no" required="">
+            </div>
+            <div class="form-control">
+                <label for="add">Address</label>
+                <textarea name="add" id="" placeholder="Enter your address" cols="30" rows="3"></textarea>
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender</label>
+                <label for="r1">
+                    <input type="radio" id="r1" name="but">F
+                </label>
+                <label for="r2">
+                    <input type="radio" id="r2" name="but">M
+                </label>
+                <label for="r3">
+                    <input type="radio" id="r3" name="but">Prefer Not To Say
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="role">Which option best describes you?</label>
+                <select name="role" id="">
+                    <option value="Student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="ins">Institute Name</label>
+                <input type="text" placeholder="Write your Institution Name" name="ins">
+            </div>
+            <div class="form-control">
+                <label for="year">Passout Year</label>
+                <select name="year" id="">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="exp">Years of Experience(in year)</label>
+                <label for="exp1">
+                    <input type="radio" id="exp1" name="butt">0-1
+                </label>
+                <label for="exp2">
+                    <input type="radio" id="exp2" name="butt">>2
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="">Languages and Frameworks Known</label>
+                <label for="inp1">
+                    <input type="checkbox" name="check">C++
+                </label>
+                <label for="inp2">
+                    <input type="checkbox" name="check">Java
+                </label>
+                <label for="inp3">
+                    <input type="checkbox" name="check">Python
+                </label>
+                <label for="inp4">
+                    <input type="checkbox" name="check">JavaScript
+                </label>
+                <label for="inp5">
+                    <input type="checkbox" name="check">Angular
+                </label>
+                <label for="inp6">
+                    <input type="checkbox" name="check">Django
+                <label for="inp7">
+                    <input type="checkbox" name="check">Node 
+                </label>
+                <label for="inp8">
+                    <input type="checkbox" name="check">Mern Stack
+                </label>
+                <label for="inp9">
+                    <input type="checkbox" name="check">MVC
+                </label>
+                <label for="inp10">
+                    <input type="checkbox" name="check">Spring Boot
+                </label>
+                <label for="inp11">
+                    <input type="checkbox" name="check">React
+                </label>
+                <label for="inp12">
+                    <input type="checkbox" name="check">MySql
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="links">Share your social links
+                    <label>Linkedin
+                        <textarea name="" id="" cols="20" rows="2"></textarea>
+                    </label>
+                    <label>Github
+                        <textarea name="" id="" cols="20" rows="2"></textarea>
+                    </label>
+                    <label>Website
+                        <textarea name="" id="" cols="20" rows="2"></textarea>
+                    </label>
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="relocate">Are you willing to relocate?</label>
+                <label for="">
+                    <input type="radio" id="3" name="but1">Yes
+                </label>
+                <label for="">
+                    <input type="radio" id="4" name="but1">No
+                </label>
+            </div>
+            <div class="form-control">
+                <label for="location">Preferred Location</label>
+                <select name="location" id="">
+                    <option value="loc1">Bangalore</option>
+                    <option value="loc2">Kolkata</option>
+                    <option value="loc3">Pune</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="upload">Please upload your resume (within 2MB)</label>
+                <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+            </div>
+            <div class="form-control">
+                <label for="upload">Please upload your cover letter (within 2MB)</label>
+                <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+            </div>
+            <div  class="form-control">
+                <label for="comment">Message to hiring manager</label>
+                <textarea name="comment" placeholder="Anything you wish to share" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
