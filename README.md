@@ -1,3 +1,3 @@
-# Hiring Form
+# Application Form
 ## Check out link from here
 https://itika1.github.io/Form/
